@@ -1,0 +1,11 @@
+// Create a function that returns the concatenation of all string in an array
+let str = ["hello", "i", "am", "srustismita"];
+
+function concat(arr){
+    let result = "";
+    for(let i =0; i<arr.length; i++){
+        result += arr[i];
+    }
+    return result;
+}
+console.log(concat(str));

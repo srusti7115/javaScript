@@ -6,4 +6,3 @@ const post = {
     tags: ["apnacollege", "@patisweety12"]
 
 };
-console.log(post.likes);
